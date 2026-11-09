@@ -8,14 +8,14 @@
 
 <br>
 
-[![Live Demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://YOUR-APP-NAME.streamlit.app)
+[![Live Demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fraudshield-ai-surendra.streamlit.app)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SurendraReddy7468/FraudShield-AI/blob/main/FraudShield_AI.ipynb)
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-3.x-EB5E28)
 ![SHAP](https://img.shields.io/badge/Explainability-SHAP-8A2BE2)
 ![Streamlit](https://img.shields.io/badge/App-Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 
-### 👉 [**Open the live app**](https://YOUR-APP-NAME.streamlit.app) 👈
+### 👉 [**Open the live app**](https://fraudshield-ai-surendra.streamlit.app) 👈
 
 </div>
 
