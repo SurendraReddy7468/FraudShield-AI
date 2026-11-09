@@ -4,22 +4,34 @@ import numpy as np
 import joblib
 import shap
 import matplotlib.pyplot as plt
+from pathlib import Path
 from xgboost import XGBClassifier
+
 st.set_page_config(page_title="FraudShield AI", layout="wide")
+
+# ---------- Find files whether they sit next to app.py or in the repo root ----------
+HERE = Path(__file__).resolve().parent
+
+def find_file(name):
+    for folder in (HERE, HERE.parent):
+        path = folder / name
+        if path.exists():
+            return path
+    raise FileNotFoundError(f"Could not find {name} next to app.py or in the repo root")
 
 # ---------- Load saved objects (cached so they load only once) ----------
 @st.cache_resource
 def load_assets():
     model = XGBClassifier()
-    model.load_model("fraud_model.json")
-    scaler = joblib.load("scaler.pkl")
-    features = joblib.load("feature_names.pkl")
+    model.load_model(str(find_file("fraud_model.json")))
+    scaler = joblib.load(find_file("scaler.pkl"))
+    features = joblib.load(find_file("feature_names.pkl"))
     explainer = shap.TreeExplainer(model)
     return model, scaler, features, explainer
 
 @st.cache_data
 def load_samples():
-    return pd.read_csv("sample_transactions.csv")
+    return pd.read_csv(find_file("sample_transactions.csv"))
 
 model, scaler, features, explainer = load_assets()
 samples = load_samples()
@@ -84,7 +96,7 @@ t = top[::-1]
 ax.barh(t.index, t.values, color=["red" if v > 0 else "dodgerblue" for v in t.values])
 ax.axvline(0, color="grey", linewidth=0.8)
 ax.set_xlabel("Push toward legit (left) or fraud (right)")
-st.pyplot(fig, use_container_width=False)
+st.pyplot(fig, width="content")
 plt.close(fig)
 
 with st.expander("Detailed SHAP waterfall"):
@@ -92,7 +104,7 @@ with st.expander("Detailed SHAP waterfall"):
     shap.plots._waterfall.waterfall_legacy(
         explainer.expected_value, sv, X_row.iloc[0], max_display=10, show=False
     )
-    st.pyplot(plt.gcf(), use_container_width=False)
+    st.pyplot(plt.gcf(), width="content")
     plt.close("all")
 
 st.caption("Red pushes toward fraud, blue toward legit. V1-V28 are anonymized, so we know which "
