@@ -315,7 +315,7 @@ The dashboard opens at `http://localhost:8501`.
 **Surendra Reddy**
 GitHub: [@SurendraReddy7468](https://github.com/SurendraReddy7468)
 
-Built as a capstone project during the **SURE ProEd (SURE Trust)** internship, *Skill Upgradation for Rural youth Empowerment Trust*. Thanks to my mentor **Ms. Akshara** for her guidance, and to **Prof. Radhakumari Challa**, Executive Director and Founder of SURE Trust.
+Built as a capstone project during the **SURE ProEd (SURE Trust)** internship, *Skill Upgradation for Rural youth Empowerment Trust*. Thanks to my mentor **Ms. Akshara A** for her guidance, and to **Prof. Radhakumari Challa**, Executive Director and Founder of SURE Trust.
 
 Dataset: Machine Learning Group, Université Libre de Bruxelles (ULB), via Kaggle.
 
