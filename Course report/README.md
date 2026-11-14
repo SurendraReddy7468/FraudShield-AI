@@ -33,7 +33,7 @@
     <p><strong>Instructor Name:</strong> Prof. Radhakumari </p>
 </div>
 <div align="left" style="margin: 20px; font-size: 16px;">
-    <p><strong>Duration:</strong> 6 months </p>
+    <p><strong>Duration:</strong> 6 months (4 months of training + 2 months of project work) </p>
 </div>
 
 <hr style="border: 0; border-top: 1px solid #ccc; width: 80%;" />
@@ -66,7 +66,7 @@
 
 ## Overall Learning 
 
-During my 6-month internship, I learned the fundamentals of Python programming, data analysis and machine learning, and applied them in a real-world capstone project.
+During my 6-month internship (4 months of training and 2 months of project work), I learned the fundamentals of Python programming, data analysis and machine learning, and applied them in a real-world capstone project.
 I gained hands-on experience with Pandas, NumPy, Scikit-learn, XGBoost, SHAP and Streamlit. I learned how to handle highly imbalanced data, judge models with the right metrics instead of accuracy, explain individual predictions, and deliver a trained model as an interactive web application.
 Beyond technical skills, the Life Skill and Soft Skill sessions improved my communication, confidence and professionalism, and I strengthened my habits of problem-solving, documentation and version control with Git and GitHub.
 
@@ -139,9 +139,14 @@ I completed this project individually, end to end:
 
 ## **Learnings from LST and SST**
 
-**Life Skill Training (LST)** sessions were held every Sunday. Each week an experienced person shared lessons about life, building a career, learning new things, behaving well and overcoming fears and problems. We also joined meet calls with students from all the batches in one place, where we could clear our doubts and build good interaction with mentors and guest speakers. These sessions gave me direction, confidence and a better understanding of how to grow into a successful professional.
+<p>
+<strong>Life Skill Training (LST)</strong> sessions were held every Sunday. Each week an experienced person shared lessons about life, building a career, learning new things, behaving well and overcoming fears and problems. We also joined meet calls with students from all the batches in one place, where we could clear our doubts and build good interaction with mentors and guest speakers. These sessions gave me direction, confidence and a better understanding of how to grow into a successful professional.
+</p>
 
-**Soft Skills Training (SST)** taught us how to talk and behave in a professional way. It improved my communication, my manner while speaking with others, and my overall professionalism, which helped me present my project clearly and confidently.
+<p>
+<strong>Soft Skills Training (SST)</strong> sessions taught us how to communicate and behave in a professional way. They helped improve my communication skills, the way I interact with others, and my overall professionalism. These sessions also helped me present my project more clearly and confidently.
+</p>
+
 ---
 
 ## **Community Services**
@@ -191,4 +196,3 @@ Add your own certificate image after it is issued, then remove the comment marke
 - Central Institute of Technology Kokrajhar – for supporting my learning.
 
 </div>
-
